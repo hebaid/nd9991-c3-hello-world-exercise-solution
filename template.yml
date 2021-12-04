@@ -7,7 +7,7 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: hebaid
+      KeyName: udacityproject3
       ImageId: 'ami-0ed9277fb7eb570c9' # you may need to find out what instance types are available in your region - use https://cloud-images.ubuntu.com/locator/ec2/
       InstanceType: t2.micro
   InstanceSecurityGroup:
